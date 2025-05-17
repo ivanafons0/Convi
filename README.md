@@ -29,23 +29,22 @@ make
 
 After building the project, you can run the file converter seleccting which option you want:
 
-```
 1. Convert PDF to DOC
 2. Convert DOC to PDF
 Choose an option (1 or 2): 
 
 (Working on making a better interface)
-```
+
 And then putting your file path and how do you want to name your new converter file
 
 
 ### Running Tests
 
 To run the tests for the conversion functionality, use the following command:
+(just a first time test, actually have to improve them)
 
 ```
 make test
-(just a first time test, actually have to improve them)
 ```
 
 ## Future Enhancements

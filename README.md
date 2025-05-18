@@ -28,9 +28,9 @@ This project relies on the following libraries for file conversion:
   
   *ArchLinux
 
-  ´´´
+  ```
   sudo pacman -S poppler-glib
-  ´´´  
+  ``  
 
 ### DOC Handling
 - **LibreOffice CLI**: Used for converting DOC files to PDF and vice versa.
@@ -39,9 +39,9 @@ This project relies on the following libraries for file conversion:
   
   *ArchLinux
 
-  ´´´
+  ```
   sudo pacman -S libreoffice-fresh
-  ´´´  
+  ```  
 
 ### General Utilities
 - **GLib**: Provides utility functions for handling strings, memory, and file paths.
@@ -50,19 +50,19 @@ This project relies on the following libraries for file conversion:
   
   *ArchLinux
 
-  ´´´
+  ```
   sudo pacman -S glib2
-  ´´´ 
+  ``` 
 
 ### Build Tools
 - **pkg-config**: Used to manage compiler and linker flags for the libraries.
   - Installation: 
 
   *ArchLinux
-  
-  ´´´
+
+  ```
   sudo pacman -S pkgconf
-  ´´´ 
+  ``` 
 
 Make sure these libraries are installed on your system before building the project.
 

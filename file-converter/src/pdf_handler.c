@@ -9,7 +9,7 @@
 int read_pdf(const char *filename, char **content) {
     GError *error = NULL;
 
-    // Convertir la ruta del archivo a una URI
+    //Convert the file path to a URI
     char *uri = g_filename_to_uri(filename, NULL, &error);
     if (!uri) {
         fprintf(stderr, "Error converting file path to URI: %s\n", error->message);
@@ -17,9 +17,9 @@ int read_pdf(const char *filename, char **content) {
         return -1;
     }
 
-    // Abrir el documento PDF usando la URI
+    // Open the PDF file using Poppler
     PopplerDocument *document = poppler_document_new_from_file(uri, NULL, &error);
-    g_free(uri); // Liberar la memoria de la URI
+    g_free(uri); // Free the URI string
 
     if (!document) {
         fprintf(stderr, "Error opening PDF file: %s\n", error->message);

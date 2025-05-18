@@ -30,7 +30,7 @@ This project relies on the following libraries for file conversion:
 
   ```
   sudo pacman -S poppler-glib
-  ``  
+  ```   
 
 ### DOC Handling
 - **LibreOffice CLI**: Used for converting DOC files to PDF and vice versa.

@@ -27,6 +27,7 @@ This project relies on the following libraries for file conversion:
   - Installation: 
   
   *ArchLinux
+
   ´´´
   sudo pacman -S poppler-glib
   ´´´  
@@ -37,6 +38,7 @@ This project relies on the following libraries for file conversion:
   - Installation: 
   
   *ArchLinux
+
   ´´´
   sudo pacman -S libreoffice-fresh
   ´´´  
@@ -47,6 +49,7 @@ This project relies on the following libraries for file conversion:
   - Installation: 
   
   *ArchLinux
+
   ´´´
   sudo pacman -S glib2
   ´´´ 
@@ -56,6 +59,7 @@ This project relies on the following libraries for file conversion:
   - Installation: 
 
   *ArchLinux
+  
   ´´´
   sudo pacman -S pkgconf
   ´´´ 
